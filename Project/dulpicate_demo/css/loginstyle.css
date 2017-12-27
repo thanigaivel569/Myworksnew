@@ -1,0 +1,174 @@
+
+body
+{
+background-color: black;
+}
+form
+{
+left:10px;
+}
+.login{
+  position:relative;
+  top:70px;
+  height: 40%;
+  text-align: center;
+  border-color: white;
+  background-color:rgba(0,0,0,0.5);
+  padding-top:50px;
+  border: 1px solid #c4c6ca; 
+}
+.bgimg
+{
+background-image:url(../images/backDeskt.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+padding-bottom:20%;
+z-index:0;
+}
+.logo img
+{
+width:190px;
+padding-bottom: 30px;
+}
+.txtbx
+{
+border-radius: 18px;
+border: 1px solid rgba(255,255,255,0.6);
+background:transparent;
+border-color:white;
+width:50%;
+height:34px;
+padding-left: 10px;
+}
+.txtbx:hover
+{
+border-radius: 18px;
+border: 1px solid rgba(255,255,255,0.6);
+border-color:#357EC7;
+}
+label
+{
+padding:20px 40px 20px 20px;
+font-size:20px;
+color:white;
+}
+.h1, h1
+{
+color:white!important;
+}
+.login-input
+{
+font-size: large;
+color:white;
+}
+.style-btn 
+{
+border: black;
+color: white;
+outline: none;
+font-size: xx-large;
+cursor: pointer;
+}
+.placeholder
+{
+color:white;
+}
+button[type=submit]{
+width:60%;
+background:rgb(250,79,0);
+outline:none;
+color:black;
+margin:31px 0px;
+font-size:18px;
+font-weight:400;
+border: 1px solid #ff4500;
+padding:11px 11px;
+letter-spacing:1px;
+text-transform:uppercase;
+border-radius: 20px;
+cursor:pointer;
+transition: 0.5s all;
+-webkit-transition: 0.5s all;
+-o-transition: 0.5s all;
+-moz-transition: 0.5s all;
+-ms-transition: 0.5s all;
+}
+button:hover{color:#fff;
+    background: rgba(0, 0, 0, 0); }
+form::after,
+form::before 
+{
+background: #f9f9f9;
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f8', endColorstr='#f9f9f9',GradientType=0 );
+border: 1px solid #c4c6ca;
+content: "";
+display: block;
+height: 100%;
+left: -1px;
+position: absolute;
+background-color:rgba(0,0,0,0.5);
+width: 100%;
+}
+form::after {
+-webkit-transform: rotate(2deg);
+-moz-transform: rotate(2deg);
+-ms-transform: rotate(2deg);
+-o-transform: rotate(2deg);
+transform: rotate(2deg);
+top: 0;
+z-index: -1;
+}
+form::before {
+-webkit-transform: rotate(-3deg);
+-moz-transform: rotate(-3deg);
+-ms-transform: rotate(-3deg);
+-o-transform: rotate(-3deg);
+transform: rotate(-3deg);
+top: 0;
+z-index: -2;
+}
+.foot
+{
+background-image:url(../images/backDeskt.jpg);
+color:white;
+}
+.foot p{
+    font-size: 9px;
+    margin-left: 3px;
+    text-align: center;
+}
+.foot a{
+font-size: 14px;
+color:white;
+}
+.footsize{
+	    font-size: 12px;
+    margin: 0px 0px;
+	    
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white; 
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;   
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;  
+}
+.fa-facebook {
+  background: #007bb5;
+  color: white;
+}
+.fa {
+  padding: 6px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  
+  border-radius: 50%;
+}

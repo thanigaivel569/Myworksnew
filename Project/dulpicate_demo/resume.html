@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Resume Format</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/resumestyle.css">
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrapValidator.js"></script>
+<script src="js/resumeScript.js"></script>
+<script src="https://docraptor.com/docraptor-1.0.0.js"></script>
+  <script src="js/xepOnline.jqPlugin.js"></script>
+<script>
+    var downloadPDF = function() {
+      DocRaptor.createAndDownloadDoc("YOUR_API_KEY_HERE", {
+        test: true, // test documents are free, but watermarked
+        type: "pdf",
+        document_content: document.querySelector('html').innerHTML, // use this page's HTML
+      })
+    }
+  </script>
+</head>
+<body >
+<div class="container cont-align">
+    <header>
+	
+           <nav class="navbar navbar-inverse first">
+               <div class="col-lg-12 col-xs-12 col-sm-12 col-md-12 navbar-header ">
+						 <div class="logoimg">
+						 <h1 class="textalign">
+                         <a  href=http://www.photon.in">
+	                          <img src="images/photon.png" class="navbar-brand">
+	                     </a>
+		                 </h1>
+						 </div>
+                 </div>
+             </nav>
+      
+          </header>
+</div>
+
+
+<div class="container">
+<div class="resume bdy">
+   <div class="row">
+       <div class="col-lg-12 col-xs-12 col-md-12 col-sm-12 bodyclass">
+        <div class="text-center ">
+             <h2 class="heading">Resume Overview</h2>
+        </div>
+		</div>
+   </div>
+   <div class="row">
+   <div class="bgm">
+	    <div class="row">
+        <div class="col-lg-8 col-xs-8 col-md-8 col-sm-8 resumedesign">
+            <p class="left_align">XXXX.Y</p>
+            <p class="left_align">xxxxx@gmail.com</p>
+            <p class="left_align">91-8012445679</p>
+          </div>
+          <div class="col-lg-4 col-xs-4  col-md-4  col-sm-4  leftpage">
+		  <div class="row">
+		<a href="work.html"><i class="fa fa-home home" aria-hidden="true"></i></a>
+		</div>
+		<div class="row">
+		<i class="fa fa-file-word-o" aria-hidden="true"></i>
+		<i class="fa fa-file-pdf-o" aria-hidden="true" id="pdf-button" value="Download PDF" onclick="downloadPDF()"></i>
+		</div>
+		</div>
+		</div>
+            <hr>
+            <div class="row">
+            	 <div class="col-lg-12 col-xs-12 col-md-12 col-sm-12 resumedesign">
+             <h3>Objective</h3>
+             <p>To work in a pragmatic way that helps to use my skills for the growth of the organization and enhance my skills to work with zist.</p>
+             </div></div>
+            <hr>
+            <div class="row">
+			<h3>Educational Details</h3>
+			</div>
+			
+			<div class="row tabledesign">
+
+		 <div class="col-lg-12 col-xs-12 col-md-12 col-sm-12 table">
+			<table class="table table-xs table-dark">
+              <thead>
+                <tr class="table-active">
+                    <th scope="col">SNO</th>
+                    <th scope="col">Course</th>
+                    <th scope="col">Name/Skills</th>
+		            <th scope="col">Location</th>
+		            <th scope="col">Year of Passing</th>
+		            <th scope="col">Percentage</th>
+		            <th scope="col">Degree</th>
+		            <th scope="col">Stream/Spec</th>
+               </tr>
+              </thead>
+              <tbody>
+                <tr class="table-active">
+                  <td scope="row">1</td>
+                  <td scope="row">SSC</td>
+                  <td scope="row">SSS TTT Vidayala</td>
+		          <td scope="row">Chennai</td>
+		          <td scope="row">2009</td>
+		          <td scope="row">89</td>
+		          <td scope="row">-</td>
+		          <td scope="row">-</td>
+                </tr>
+      <tr>
+        <td scope="row">2</td>
+        <td scope="row">HSC</td>
+        <td scope="row">SSS TTT Vidayala</td>
+		<td scope="row">Chennai</td>
+		<td scope="row">2011</td>
+		<td scope="row">90</td>
+		<td scope="row">-</td>
+		<td scope="row">ComputerScience</td>
+      </tr>
+      <tr>
+        <td scope="row">3</td>
+        <td scope="row">UG</td>
+        <td scope="row">XXX YYY College</td>
+		<td scope="row">Chennai</td>
+		<td scope="row">2015</td>
+		<td scope="row">90</td>
+		<td scope="row">B.E</td>
+		<td scope="row">CSE</td>
+      </tr>
+	  <tr>
+        <td scope="row">4</td>
+        <td scope="row">PG</td>
+        <td scope="row">XXX YYY College</td>
+		<td scope="row">Chennai</td>
+		<td scope="row">2017</td>
+		<td scope="row">85</td>
+		<td scope="row">M.E</td>
+		<td scope="row">DataStructures</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  </div>
+<hr>
+  <div class="row">
+
+			 <h3>Certification/Technical Skills</h3>
+			 <ul>
+			 <label>Operating Systems</label>
+			 <li>Windows</li>
+			 <li>Linux</li>
+			 <label>Software</label>
+			 <li>Eclipse</li>
+			 <li>SqlServer</li>
+			 <label>Languages</label>
+			 <li>Java</li>
+			 <li>Html,Css</li>
+			 <li>Javascript</li>
+			 </ul>
+			 <hr>
+			 <h3>Work Experience<h3>
+             <label class="work_align">Designation:</label><span class="text_work">Software Engineer</span> <br>
+             <label class="work_align ">Project Details:</label><span class="text_work"> Online Resume Builder project:The user specifies details so that the details are furnished in the resume format.Based on the skills and location specified by the user,employer searches for resume and posts for job opportunites.</span><br>
+			 <label class="work_align ">Experience:</label><span class="text_work">2 years </span>
+			 <hr>
+			 <h3>Personal Details<h3>
+			 <label class="work_align ">Name:</label><span class="text_work">XXXX.YYY <br>
+			 <label class="work_align ">DOB:</label><span class="text_work">dd/mm/yyyy <br>
+			 <label class="work_align">Gender:</label><span class="text_work">Female <br>
+			 <label class="work_align ">Father's Name:</label><span class="text_work"> Mr.DDDD <br>
+			 <label class="work_align">Mother's Name:</label><span class="text_work"> Mrs.EEEE <br>
+			  <label class="work_align">Address:</label><span class="text_work">#11/22 zzzz Street,AAA city,BBB State-000001<br>
+			 <label class="work_align">Marital Status:</label><span class="text_work">UnMarried
+		   </div>
+
+
+
+		</div>
+
+
+	<footer class="col-lg-12 col-xs-12 text-center foot">
+             <p><span class="glyphicon glyphicon-copyright-mark "></span>2017 North america photon Infotech Limited. |<a href="#">www.photoninfotech.in</a>
+             <img src="images/social-icon.png" class="icon6 hidden-xs"></p>
+         </footer>
+
+
+
+</div>
+</div>
+</div>
+</body>
+</html>

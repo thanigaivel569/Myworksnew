@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Educational details</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/Edustyle.css">
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrapValidator.js"></script>
+<script src="js/Eduscript.js"></script>
+</head>
+<body>
+<div class="container cont-align">
+
+
+     <header>
+
+             <nav class="navbar navbar-inverse first">
+
+                 <div class="col-lg-12 col-xs-12 col-sm-12 col-md-12 navbar-header ">
+	  	                  <div class="row">
+						 <div class="logoimg col-lg-9 col-xs-9 col-sm-9 col-md-9">
+						 <h1 class="textalign">
+                         <a  href="#">
+	                          <img src="images/logo.png" class="navbar-brand">
+	                     </a>
+		                 </h1>
+						 </div>
+
+						   <div class="col-lg-3 col-xs-3 col-md-3 col-sm-3 ">
+						    <a href="index.html" class="fa fa-sign-out">Log Out</a>
+						   </div>
+						   </div>
+
+                 </div>
+
+             </nav>
+
+          </header>
+
+
+
+
+     <div class="col-lg-12 col-xs-12 col-md-12 col-sm-12 bodyclass">
+
+        <div class="text-center ">
+             <h2 class="heading">Educational Details</h2>
+        </div>
+
+	 </div>
+
+
+	  <div class="col-lg-offset-1 col-lg-10 col-xs-offset-1 col-xs-10 col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10   bodyclass">
+
+
+		 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+             <div class="panel panel-default paneltrans">
+                 <div class="panel-heading panelhead" role="tab" id="headingOne">
+
+                      <h4 class="panel-title paneldesign"role="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" >
+
+		              <div class="row plusdesign">
+					  <div class="col-lg-10 col-xs-10">
+                      <h2 class="subheading">SSLC</h2></div>
+			          <div class="col-lg-2 col-xs-2">
+			          <button class="btn buttonclass" type="button">
+                       Add
+                      </button>
+	                  </div>
+		              </div>
+
+                      </h4>
+                 </div>
+
+                 <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                     <div class="panel-body panelclass">
+                         <form class="form-horizontal" method="post"   action="#" id="contact_form">
+                         <!-- Text input-->
+
+		                     <div class="row">
+
+                              <div class="form-group col-lg-6 col-xs-12 col-md-12 col-sm-12 ">
+                              <label class="col-md-4 col-lg-3 control-label text-lab" for="name">School Name</label>
+                              <div class="col-md-4 col-lg-9">
+                              <input id="s_name" name="school_name" type="text" placeholder="Please type in your school name" class="form-control input-md" required="">
+                              </div>
+                              </div>
+
+	     	                  <div class="form-group col-lg-6 col-xs-12 col-md-12 col-sm-12">
+                              <label class="col-md-4 col-lg-3 control-label text-lab" for="name">Location</label>
+
+            <div class="col-md-4 col-lg-9">
+                <input id="s_location" name="slocation" type="text" placeholder="Please type in your location" class="form-control input-md" required="">
+            </div>
+            </div>
+
+		</div>
+
+		<div class="row">
+
+            <div class="form-group col-lg-6 col-xs-12 col-sm-12 col-md-12">
+            <label class="col-md-4 col-lg-3 control-label text-lab" for="name">Year Of Passing</label>
+             <div class="col-md-4 col-lg-9">
+                <input id="s_year" name="syear" type="number" placeholder="Please type in your year of passing" class="form-control input-md" required="">
+            </div>
+            </div>
+
+	     	<div class="form-group col-lg-6 col-xs-12 col-md-12 col-sm-12">
+            <label class="col-md-4 col-lg-3 control-label text-lab" for="name">Percentage</label>
+
+            <div class="col-md-4 col-lg-9">
+                <input id="s_percent" name="spercent" type="number" placeholder="Please type in your percentage" class="form-control input-md" required="">
+            </div>
+            </div>
+
+		</div>
+
+		<div class="form-group">
+
+            <div class="col-lg-offset-5 col-lg-7 col-sm-offset-5 col-sm-7 col-md-offset-5 col-md-7 ">
+                <button type="submit" class="btn leftbtn ">Save</button>
+                <button type="submit" class="btn rightbtn">Edit</button>
+            </div>
+			</div>
+
+		</form>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default paneltrans">
+    <div class="panel-heading panelhead" role="tab" id="headingTwo">
+
+      <h4 class="panel-title paneldesign" class="collapsed" role="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" >
+
+		<div class="row plusdesign">
+		<div class="col-lg-10 col-xs-10">
+             <h2 class="subheading">HSC/Diplomo</h2></div>
+			 <div class="col-lg-2 col-xs-2">
+			 <button class="btn buttonclass" type="button">
+              Add
+             </button>
+		</div>
+		</div>
+
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <div class="panel-body panelclass">
+
+		<form class="form-horizontal" method="post"   action="#" id="contact_form1" >
+        <!-- Text input-->
+
+		<div class="row">
+
+            <div class="form-group col-lg-6 col-xs-12 col-md-12 col-sm-12">
+            <label class="col-md-4 col-lg-3 control-label text-lab" for="name">School/Institution Name</label>
+             <div class="col-md-4 col-lg-9">
+                <input id="i_name" name="institute_name" type="text" placeholder="Please type in your college name" class="form-control input-md" required="">
+            </div>
+            </div>
+
+	     	<div class="form-group col-lg-6 col-xs-12 col-sm-12 col-md-12">
+            <label class="col-md-4 col-lg-3 control-label text-lab" for="name">Location</label>
+
+            <div class="col-md-4 col-lg-9">
+                <input id="h_location" name="hlocation" type="text" placeholder="Please type in your location" class="form-control input-md" required="">
+            </div>
+            </div>
+
+		</div>
+
+		<div class="row">
+
+            <div class="form-group col-lg-6 col-xs-12 col-sm-12 col-md-12">
+            <label class="col-md-4 col-lg-3 control-label text-lab" for="name">Year Of Passing</label>
+             <div class="col-md-4 col-lg-9">
+                <input id="h_year" name="hyear" type="number" placeholder="Please type in your year of passing" class="form-control input-md" required=" ">
+            </div>
+            </div>
+
+	     	<div class="form-group col-lg-6 col-xs-12 col-sm-12 col-md-12">
+            <label class="col-md-4 col-lg-3 control-label text-lab" for="name">Percentage</label>
+
+            <div class="col-md-4 col-lg-9">
+                <input id="h_percent" name="hpercent" type="number" placeholder="Please type in your percentage" class="form-control input-md" required="">
+            </div>
+            </div>
+
+		</div>
+
+		<div class="row">
+
+            <div class="form-group col-lg-6 col-xs-12 col-sm-12 col-md-12">
+            <label class="col-md-4 col-lg-3 control-label text-lab" for="name">Stream</label>
+             <div class="col-md-4 col-lg-9">
+
+				<select id="strms" name="strm" type="text" class="form-control input-md" required="">
+               <option value=" " >Biology</option>
+               <option>Biology</option>
+               <option>Science with computer science</option>
+               <option >commerse</option>
+               <option >commerse with computer science </option>
+                </select>
+            </div>
+            </div>
+
+		      </div>
+
+			  <div class="form-group">
+
+            <div class="col-lg-offset-5 col-lg-7 col-sm-offset-5 col-sm-7 col-md-offset-5 col-md-7 ">
+                <button type="submit" class="btn leftbtn ">Save</button>
+                <button type="submit" class="btn rightbtn">Edit</button>
+            </div>
+			</div>
+
+		</form>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default paneltrans">
+    <div class="panel-heading panelhead" role="tab" id="headingThree">
+
+
+      <h4 class="panel-title paneldesign" class="collapsed" role="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" >
+
+	   <div class="row plusdesign">
+		<div class="col-lg-10 col-xs-10">
+             <h2 class="subheading">Under Graduation</h2></div>
+			 <div class="col-lg-2 col-xs-2">
+			 <button class="btn buttonclass" type="button">
+              Add
+             </button>
+		</div>
+		</div>
+
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+      <div class="panel-body panelclass">
+
+		<form class="form-horizontal" method="post"   action="#" id="contact_form2">
+        <!-- Text input-->
+
+		<div class="row">
+
+            <div class="form-group col-lg-6 col-xs-12 col-sm-12 col-md-12">
+            <label class="col-md-4 col-lg-3 control-label text-lab" for="name">College Name</label>
+             <div class="col-md-4 col-lg-9">
+                <input id="uc_name" name="ucollege_name" type="text" placeholder="Please type in your college name" class="form-control input-md" required="">
+            </div>
+            </div>
+
+	     	<div class="form-group col-lg-6 col-sm-12 col-md-12">
+            <label class="col-md-4 col-lg-3 control-label text-lab" for="name">Location</label>
+
+            <div class="col-md-4 col-lg-9">
+                <input id="u_location" name="ulocation" type="text" placeholder="Please type in your location" class="form-control input-md" required="">
+            </div>
+            </div>
+
+		</div>
+
+		<div class="row">
+
+            <div class="form-group col-lg-6 col-xs-12 col-sm-12 col-md-12">
+            <label class="col-md-4 col-lg-3 control-label text-lab" for="name">Year Of Passing</label>
+             <div class="col-md-4 col-lg-9">
+                <input id="u_year" name="uyear" type="number" placeholder="Please type in your year of passing" class="form-control input-md" required="">
+            </div>
+            </div>
+
+	     	<div class="form-group col-lg-6 col-xs-12 col-sm-12 col-md-12">
+            <label class="col-md-4 col-lg-3 control-label text-lab" for="name">Percentage</label>
+
+            <div class="col-md-4 col-lg-9">
+                <input id="u_percent" name="upercent" type="number" placeholder="Please type your percentage" class="form-control input-md" required="">
+            </div>
+            </div>
+
+		</div>
+
+		<div class="row">
+
+            <div class="form-group col-lg-6 col-xs-12 col-sm-12 col-md-12">
+            <label class="col-md-4 col-lg-3 control-label text-lab" for="name">Degree</label>
+             <div class="col-md-4 col-lg-9">
+
+				<select id="u_degree" name="udegree" type="text" class="form-control input-md" required="">
+               <option value=" " >B.E</option>
+               <option>B.E</option>
+               <option>B.Tech</option>
+               <option >M.E</option>
+               <option >M.Tech </option>
+			   <option >B.Sc </option>
+			   <option >M.Sc </option>
+			   <option >MBA </option>
+                </select>
+
+            </div>
+            </div>
+
+	     	<div class="form-group col-lg-6 col-xs-12 col-sm-12 col-md-12">
+            <label class="col-md-4 col-lg-3 control-label text-lab" for="name">Specification</label>
+
+            <div class="col-md-4 col-lg-9">
+
+			 <select id="u_specification" name="uspecification" type="text" class="form-control input-md" required="">
+               <option value=" " >Computer Science </option>
+               <option>Computer Science</option>
+               <option>Electronic Communication</option>
+               <option >Electronic and electrical</option>
+			   <option >Information Technology</option>
+			   <option >Electroniv Instrumentation </option>
+			    <option >Mechanical</option>
+			   <option >Civil</option>
+                </select>
+
+            </div>
+            </div>
+
+		</div>
+
+		<div class="form-group">
+
+            <div class="col-lg-offset-5 col-lg-7 col-sm-offset-5 col-sm-7 col-md-offset-5 col-md-7 ">
+                <button type="submit" class="btn leftbtn ">Save</button>
+                <button type="submit" class="btn rightbtn">Edit</button>
+            </div>
+			</div>
+
+	</form>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default paneltrans">
+    <div class="panel-heading panelhead" role="tab" id="headingFour">
+
+
+
+      <h4 class="panel-title paneldesign" class="collapsed" role="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" >
+
+	   <div class="row plusdesign">
+		<div class="col-lg-10 col-xs-10">
+             <h2 class="subheading">Post Graduation</h2></div>
+			 <div class="col-lg-2 col-xs-2">
+			<button class="btn buttonclass" type="button">
+              Add
+             </button>
+		</div>
+		</div>
+
+      </h4>
+    </div>
+    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+      <div class="panel-body panelclass">
+
+		<form class="form-horizontal" method="post"   action="#" id="contact_form3">
+        <!-- Text input-->
+
+		<div class="row">
+
+            <div class="form-group col-lg-6 col-xs-12 col-sm-12 col-md-12">
+            <label class="col-md-4 col-lg-3 control-label text-lab" for="name">College Name</label>
+             <div class="col-md-4 col-lg-9">
+                <input id="pc_name" name="pcollegename" type="text" placeholder="Please fill your college name" class="form-control input-md" required="">
+            </div>
+            </div>
+
+	     	<div class="form-group col-lg-6 col-xs-12 col-sm-12 col-md-12">
+            <label class="col-md-4 col-lg-3 control-label text-lab" for="name">Location</label>
+
+            <div class="col-md-4 col-lg-9">
+                <input id="p_location" name="plocation" type="text" placeholder="Please type your location" class="form-control input-md" required="">
+            </div>
+            </div>
+
+		</div>
+
+		<div class="row">
+
+            <div class="form-group col-lg-6 col-xs-12 col-sm-12 col-md-12">
+            <label class="col-md-4 col-lg-3 control-label text-lab" for="name">Year Of Passing</label>
+             <div class="col-md-4 col-lg-9">
+                <input id="p_year" name="pyear" type="number" placeholder="Please type in your year of passing" class="form-control input-md" required="">
+            </div>
+            </div>
+
+	     	<div class="form-group col-lg-6 col-xs-12 col-sm-12 col-md-12">
+            <label class="col-md-4 col-lg-3 control-label text-lab" for="name">Percentage</label>
+
+            <div class="col-md-4 col-lg-9">
+                <input id="p_percent" name="ppercent" type="number" placeholder="Please type in your percentage" class="form-control input-md" required="">
+            </div>
+            </div>
+
+		</div>
+
+		<div class="row">
+
+            <div class="form-group col-lg-6 col-xs-12 col-sm-12 col-md-12">
+            <label class="col-md-4 col-lg-3 control-label text-lab" for="name">Degree</label>
+             <div class="col-md-4 col-lg-9">
+
+              <select id="p_degree" name="pdegree" type="text" class="form-control input-md" required="">
+               <option value=" " >B.E</option>
+               <option>B.E</option>
+               <option>B.Tech</option>
+               <option >M.E</option>
+               <option >M.Tech </option>
+			   <option >B.Sc </option>
+			   <option >M.Sc </option>
+			   <option >MBA </option>
+                </select>
+
+            </div>
+            </div>
+
+	     	<div class="form-group col-lg-6 col-xs-12 col-sm-12 col-md-12">
+            <label class="col-md-4 col-lg-3 control-label text-lab" for="name">Specification</label>
+
+            <div class="col-md-4 col-lg-9">
+
+            <select id="p_specification" name="pspecification" type="text" class="form-control input-md" required="">
+               <option value=" " >Computer Science</option>
+               <option>Computer Science</option>
+               <option>Electronic Communication</option>
+               <option >Electronic and electrical</option>
+			   <option >Information Technology</option>
+			   <option >Electroniv Instrumentation </option>
+			    <option >Mechanical</option>
+			   <option >Civil</option>
+                </select>
+
+            </div>
+            </div>
+
+		</div>
+
+		<div class="form-group">
+
+            <div class="col-lg-offset-5 col-lg-7 col-sm-offset-5 col-sm-7 col-md-offset-5 col-md-7 ">
+                <button type="submit" class="btn leftbtn ">Save</button>
+                <button type="submit" class="btn rightbtn">Edit</button>
+            </div>
+			</div>
+
+		</form>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default paneltrans">
+    <div class="panel-heading panelhead" role="tab" id="headingFive">
+
+
+      <h4 class="panel-title paneldesign" class="collapsed" role="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" >
+
+	   <div class="row plusdesign">
+		<div class="col-lg-10 col-xs-10">
+             <h2 class="subheading">Certification Details</h2></div>
+			 <div class="col-lg-2 col-xs-2">
+			<button class="btn buttonclass" type="button">
+              Add
+             </button>
+		</div>
+		</div>
+
+      </h4>
+    </div>
+    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+      <div class="panel-body panelclass">
+
+		<form class="form-horizontal" method="post"   action="#" id="contact_form4">
+        <!-- Text input-->
+
+		<div class="row">
+
+            <div class="form-group col-lg-6 col-xs-12 col-sm-12 col-md-12">
+            <label class="col-md-4 col-lg-3 control-label text-lab" for="name">Certification Name </label>
+             <div class="col-md-4 col-lg-9">
+                <input id="cert_name" name="certname" type="text" placeholder="Type in your certification name name" class="form-control input-md" required="">
+            </div>
+            </div>
+
+		</div>
+
+		<div class="form-group">
+
+            <div class="col-lg-offset-5 col-lg-7 col-sm-offset-5 col-sm-7 col-md-offset-5 col-md-7 ">
+                <button type="submit" class="btn leftbtn ">Save</button>
+                <button type="Button" class="btn rightbtn">Edit</button>
+            </div>
+			</div>
+
+
+		</form>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default paneltrans">
+    <div class="panel-heading panelhead" role="tab" id="headingSix">
+
+
+      <h4 class="panel-title paneldesign" class="collapsed" role="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" >
+
+		 <div class="row plusdesign">
+		<div class="col-lg-10 col-xs-10">
+             <h2 class="subheading">Technical Skills</h2></div>
+			 <div class="col-lg-2 col-xs-2">
+			<button class="btn buttonclass" type="button">
+              Add
+             </button>
+		</div>
+		</div>
+
+      </h4>
+    </div>
+    <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+      <div class="panel-body panelclass">
+
+		<form class="form-horizontal" method="post"   action="#" id="contact_form5">
+        <!-- Text input-->
+
+		<div class="row">
+
+            <div class="form-group col-lg-6 col-xs-12 col-sm-12 col-md-12">
+            <label class="col-md-4 col-lg-3 control-label text-lab" for="name">Technical Skills</label>
+             <div class="col-md-4 col-lg-9">
+
+			 <select id="tech_skills" name="techskills" type="text" class="form-control input-md" required="">
+               <option value=" " >java</option>
+               <option>java</option>
+               <option>C,C++</option>
+               <option >.net</option>
+               <option >HTML,CSS</option>
+			   <option >angular</option>
+			   <option >Python</option>
+			   <option >javascript</option>
+			   <option >sql</option>
+			   <option >rubby</option>
+                </select>
+
+              </div>
+            </div>
+
+		</div>
+
+		<div class="form-group">
+
+            <div class="col-lg-offset-5 col-lg-7 col-sm-offset-5 col-sm-7 col-md-offset-5 col-md-7 ">
+                <button type="submit" class="btn leftbtn ">Save</button>
+                <button type="submit" class="btn rightbtn">Edit</button>
+            </div>
+			</div>
+
+		</form>
+      </div>
+    </div>
+  </div>
+</div>
+
+           <div class="form-group">
+
+            <div class="col-lg-offset-5 col-lg-7 col-sm-offset-5 col-sm-7 col-md-offset-5 col-md-7 ">
+
+                <a href="work.html"><button type="submit" class="btn bottomrightbtn">Next</button></a>
+            </div>
+			</div>
+
+		</div>
+		
+
+
+
+	 <footer class="col-lg-12 col-xs-12 col-md-12 col-sm-12  foot">
+
+	          <div class="row">
+
+             <div class=" col-lg-8 col-xs-12 col-md-12 col-sm-12">
+             <p ><span class="glyphicon glyphicon-copyright-mark "></span>   2017 North america photon Infotech Limited. |<a href="#">www.photoninfotech.in</a></p>
+			 </div>
+
+             <div class="text-center col-lg-4  hidden-xs hidden-sm footsize">
+			 <span class="fa fa-facebook "></span>
+             <span  class="fa fa-twitter "></span>
+             <span  class="fa fa-google "></span>
+             <span  class="fa fa-linkedin "></span>
+			 </div>
+
+			 </div>
+        </footer>
+
+
+
+</div>
+</body>
+</html>

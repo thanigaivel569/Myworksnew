@@ -1,0 +1,245 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+/*header*/
+.logoimg{
+    display: inline-block;
+    padding-right: 10px;
+	padding-left: 10px;
+    padding-top: 0px;
+    margin-top: 3px;
+}
+.first{
+
+	background-color:transparent;
+	border: none;
+	margin-bottom:0px;
+}
+h1.textalign
+{
+ margin:0px;
+}
+.navbar-brand
+{
+  padding: 0px;
+}
+.fa {
+  padding: 6px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  
+  border-radius: 50%;
+}
+.fa-sign-out{
+    background: transparent;
+    color: white;
+    font-size: 25px;
+    float: right;
+    width: 127px;
+    font-weight: bold;
+}
+.fa-sign-out:hover{
+	text-decoration:none;
+	color:white;
+}
+label {
+   
+    color: whitesmoke;
+}
+
+/* body */
+.cont-align{
+	padding:0px;
+	background-image: url(../images/AAA.jpg);
+	background-size:cover;
+}
+.bodyclass{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+h2.heading{
+	font-family: serif;
+    margin-bottom: 15px;
+	font-size: 41px;
+    color: aliceblue;
+    margin: 0px;   
+   padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 31px;
+    letter-spacing: 9px;
+    background: rgba(0,0,0,0.8);
+	  font-variant: small-caps;
+}
+h2.subheading{
+	  font-family: serif;
+    border-bottom: 2px solid black;
+    font-size: 41px;
+    color: black;
+    margin: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 31px;
+    letter-spacing: 7px;
+    background: rgba(137,139,147,0.5);
+	  	
+}
+.form-group .text-lab{
+	            text-align: left;
+    color: white;
+    font-variant: small-caps;
+    font-weight: 800;
+    font-size: 16px;
+}
+.leftbtn{
+	    float: left;
+    background-color: white;
+    color: balck;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.finalbutton{
+	
+    background-color: white;
+    color: balck;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.nextbutton-adj{
+	    padding-left: 290px;
+}
+.rightbtn{
+	
+      background-color: white;
+    color: balck;
+    margin-bottom: 15px;
+    font-weight: bold;
+    float: right;
+    margin-right: 29px;
+}
+.buttonclass{
+	            background: rgba(0,0,0,0.8);
+    color: white;
+    font-size: 25px;
+    padding: 20px 45px;
+}
+.buttonclass1{
+	            background: rgba(0,0,0,0.8);
+    color: white;
+    font-size: 25px;
+    padding: 20px 45px;
+	float: right;
+}
+button.btn.finalbutton {
+    float: right;
+    margin-right: 10%;
+}
+
+
+.boxdesign{
+	width:72%
+}
+/*footer*/
+.foot{
+    padding-top: 18px;
+    background-color: black;
+    font-size: 16px;
+    opacity: 0.8;
+	margin-top:20px;
+}
+.foot a{
+font-size: 14px;
+color:white;
+}
+.foot p{
+	color:white;
+	font-size:15px;
+	margin-left: 258px;
+	
+}
+.footsize{
+	    font-size: 12px;
+    margin: 0px 0px;
+	padding-right: 233px;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white; 
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;   
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;  
+}
+.fa-facebook {
+  background: #007bb5;
+  color: white;
+}
+/*media queries*/
+@media all
+  and (min-device-width: 300px) 
+  and (max-device-width: 720px) {
+	  .plusdesign h2{
+	   font-size: 35px;
+    color:  black;
+    margin-left:0px;
+}
+h2.heading{
+	font-size:31px;
+}
+h2.subheading{
+	font-size:31px;
+}
+.foot p{
+    font-size: 9px;
+    margin-left: 3px;
+    text-align: center;
+}
+.foot a{
+font-size: 14px;
+color:white;
+}
+.footsize{
+	    font-size: 12px;
+    margin: 0px 0px;
+	    
+}
+.fa-sign-out{
+    font-size: 20px;
+    margin-top: 9px;
+}
+  }
+  
+ @media all
+ and (min-device-width: 720px) 
+ and (max-device-width: 1280px) {
+	  .plusdesign h2{
+	   font-size: 35px;
+       color:  black;
+       margin-left:0px;
+}
+h2.heading{
+	font-size:31px;
+	font-variant: small-caps;
+}
+h2.subheading{
+	font-size:31px;
+}
+.foot p{
+    font-size: 9px;
+    margin-left: 0px;
+    text-align: center;
+}
+.footsize{
+	    font-size: 12px;
+    margin: 0px 0px;
+}
+.fa-sign-out{
+ font-size: 20px;
+    margin-top: 9px;
+}
+  }

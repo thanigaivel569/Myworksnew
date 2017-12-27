@@ -1,0 +1,235 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+/*header*/
+.logoimg{
+    display: inline-block;
+    padding-right: 10px;
+	padding-left: 10px;
+    padding-top: 0px;
+    margin-top: 3px;
+}
+.first{
+
+	background-color:transparent;
+	border: none;
+	margin-bottom:0px;
+}
+h1.textalign
+{
+ margin:0px;
+}
+.navbar-brand
+{
+  padding: 0px;
+}
+.fa {
+  padding: 6px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  
+  border-radius: 50%;
+}
+.fa-sign-out{
+    background: transparent;
+    color: white;
+    font-size: 25px;
+    float: right;
+    width: 127px;
+    font-weight: bold;
+}
+.fa-sign-out:hover{
+	text-decoration:none;
+	color:white;
+}
+
+/* body */
+.cont-align{
+	padding:0px;
+	background-image: url(../images/book6.jpg);
+	background-size:100% 100%;
+}
+.plusdesign .buttonclass{
+        margin-left: 51px;
+    margin-top: 20px;
+    background-color: oldlace;
+    color: black;
+    font-weight: bolder;
+}
+h2.heading{
+	font-variant: small-caps;
+    font-family: serif;  
+	font-size: 41px;
+    color: aliceblue;
+    margin: 0px;   
+   padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 31px;
+    letter-spacing: 9px;
+    background: rgba(0,0,0,0.8);
+}
+h2.subheading {
+      font-family: 'inital';
+    margin-bottom: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+    margin-left: 20px;
+    font-variant: small-caps;
+}
+.bodyclass{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.paneltrans .panel-heading+.panel-collapse .panelclass {
+       border: 1px solid white;
+    border-radius: 4px;
+}
+.paneltrans .panelhead{
+	    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+	  
+}
+.paneltrans{
+	background-color:transparent;
+	border-color: black;
+}
+.panelclass{
+	    border-top-color: black;
+	opacity:0.8;
+}
+
+.form-group .text-lab{
+	           text-align: left;
+    color: honeydew;
+    font-weight: 900;
+    font-variant: small-caps;
+}
+
+.leftbtn{
+	    float: left;
+        background-color: oldlace;
+    color: black;
+    font-weight: bolder;
+	    margin-right: 30px;
+}
+.rightbtn{
+	float:right;
+        background-color: oldlace;
+    color: black;
+    font-weight: bolder;
+	    margin-right: 30px;
+}
+
+.bottomrightbtn{
+	margin-right: 27px;
+	float:right;
+	 background-color: oldlace;
+    color: black;
+    font-weight: bolder;
+}
+
+/*footer*/
+.foot{
+    padding-top: 18px;
+    background-color: black;
+    font-size: 16px;
+    opacity: 0.8;
+	margin-top:20px;
+}
+.foot a{
+font-size: 14px;
+color:white;
+}
+.foot p{
+	color:white;
+	font-size:15px;
+	margin-left: 258px;
+	
+}
+.footsize{
+	    font-size: 12px;
+    margin: 0px 0px;
+	padding-right: 233px;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white; 
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;   
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;  
+}
+.fa-facebook {
+  background: #007bb5;
+  color: white;
+}
+/*media queries*/
+@media all
+  and (min-device-width: 300px) 
+  and (max-device-width: 720px) {
+	 
+	  .plusdesign .buttonclass{
+           margin-left: 0px;
+    float: right;
+}
+h2.heading{
+	font-size:31px;
+}
+     h2.subheading{
+		 font-size:25px;
+	 }
+	 .foot p{
+    font-size: 9px;
+    margin-left: 3px;
+    text-align: center;
+}
+.foot a{
+font-size: 14px;
+color:white;
+}
+.footsize{
+	    font-size: 12px;
+    margin: 0px 0px;
+	    
+}
+.fa-sign-out{
+    font-size: 20px;
+    margin-top: 9px;
+}
+  }
+  @media all
+  and (min-device-width: 720px) 
+  and (max-device-width: 1280px) {
+	  .plusdesign .buttonclass{
+           margin-left: 0px;
+    float: right;
+ 
+}
+h2.heading{
+	font-size:31px;
+}
+h2.subheading{
+		 font-size:25px;
+	 }
+	 .foot p{
+    font-size: 9px;
+    margin-left: 0px;
+    text-align: center;
+}
+.footsize{
+	    font-size: 12px;
+    margin: 0px 0px;
+}
+.fa-sign-out{
+ font-size: 20px;
+    margin-top: 9px;
+}
+  }

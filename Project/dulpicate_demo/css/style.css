@@ -1,0 +1,148 @@
+/*for background image*/
+body{
+
+  background-size: 100% 100%;
+  background-size: cover;
+  -webkit-animation: mymove 10s infinite;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+
+
+}
+@-webkit-keyframes mymove {
+    0% {background-image: url("../images/keyboard.jpg");}
+    50%{background-image: url("../images/desk.jpg");}
+    100% {background-image: url("../images/ki.png");}
+}
+/*for icon color adjustments*/
+a{
+  color:white;
+  opacity: 0.8;
+}
+a:hover{
+  color:grey;
+  text-decoration: none;
+}
+/*for icon zoom*/
+.zoom
+{
+font-size:30px;
+transition: all .3s ease-in-out;
+color:white;
+}
+.zoom:hover
+{
+transform: scale(1.2);
+}
+/*for icon adjustments*/
+.imagesadj{
+  max-width: 300px;
+  max-height: 100px;
+  width:100%;
+  height: 100%;
+}
+.centerpic{
+  margin-top: 44px;
+}
+/*for user icon adjustments*/
+.font-adj{
+  font-size: 20vw;
+  margin-top: 8vw;
+  float: right;
+}
+/*for admin icon adjustments*/
+.adfont-adj{
+  float: left;
+}
+/*for icon hover message*/
+.test + .tooltip > .tooltip-inner {
+      background-color: black;
+      color: #FFF;
+      text-shadow: 0 0 150px #FFF, 0 0 60px #FFF, 0 0 10px #FFF;
+      padding: 15px;
+      font-size: 2vw;
+      border-radius: 50%;
+  }
+  .test + .tooltip.left > .tooltip-arrow {
+      border-left: 5px solid white;
+  }
+  /* Tooltip on right */
+  .test + .tooltip.right > .tooltip-arrow {
+      border-right: 5px solid white;
+  }
+  /* Footer part */
+  .foot{
+  padding-top:18px;
+
+  color:white;
+  font-size:5vh;
+  }
+  .foot a{
+  font-size: 5vh;
+  color:white;
+  }
+  .fix{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+  }
+   a.title {
+    color: #FFF;
+    text-shadow: 0 0 150px #FFF, 0 0 60px #FFF, 0 0 10px #FFF;
+}
+  /* media query for small devices*/
+  @media all
+ and (min-width: 300px)
+ and (max-width: 720px) {
+   /* for footer*/
+   .foot{
+   font-size:2vh;
+   }
+   .foot a{
+   font-size: 2vh;
+   color:white;
+   }
+   /*for placing the icon in center*/
+   .font-adj{
+     font-size: 30vw;
+     margin-top: 45vw;
+
+   }
+   /* Tooltip on right */
+   /* Tooltip on right */
+   /* Tooltip on right */
+   /* Tooltip on right */
+   /* Tooltip on right */
+   /* Tooltip on right */
+   /* Tooltip on right */
+   /* Tooltip on right */
+   /* Tooltip on right */
+
+
+
+
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+.font-adj{
+  font-size: 35vw;
+  margin-top: 32vw;
+  float: right;
+}
+ .foot{
+   font-size:3vh;
+   }
+   .foot a{
+   font-size: 3vh;
+   color:white;
+   }
+body{
+  background-size: 100% 100%;
+}
+
+
+}

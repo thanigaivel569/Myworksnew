@@ -1,0 +1,387 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+/*header*/
+.bgm
+{
+    background-color:#FFFFE0;
+    border:20px solid #D4AF37;
+    padding:35px;
+}
+.logoimg{
+    display: inline-block;
+    padding-right: 10px;
+	padding-left: 10px;
+    padding-top: 0px;
+    margin-top: 3px;
+}
+body{
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+	
+}
+
+.first{
+	   
+		background-color:transparent;
+	border: none;
+	margin-bottom:0px;
+}
+h1.textalign
+{
+ margin:0px;
+}
+.navbar-brand
+{
+  padding: 0px;
+}
+.cont-align{
+	padding:0px;
+	background-size:100% 100%;
+	
+}
+/* body */
+h2.heading{
+	      font-variant: small-caps;
+    font-family: serif;
+  
+	font-size: 41px;
+    color: aliceblue;
+    margin: 0px;   
+   padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 31px;
+    letter-spacing: 9px;
+    background: rgba(0,0,0,0.8);
+}
+h2.subheading {
+      font-family: 'inital';
+    margin-bottom: 15px;
+    color: black;
+    font-weight: bold;
+    font-size: x-large;
+    margin-left: 20px;
+    font-variant: small-caps;
+}
+.bodyclass{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.left_align
+{
+	text-align:left;
+	color: black;
+	font-weight: bold;
+    font-family: 'inital';
+	font-size: 20px;
+}
+
+hr { 
+background-color:#D4AF37; 
+height: 3px; 
+border: 0; 
+}
+
+h3
+{
+	color: black;
+	font-weight: bold;
+	font-family: 'inital';
+	font-size: 30px;
+}
+
+.text_work
+{
+	
+	font-weight:normal;
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+	
+}
+
+.work_align
+{
+	text-align:left;
+	color: black;
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+	
+}
+.home{
+    
+    float:right;
+    color:#8B0000;
+    font-size: 50px;
+    margin-top: 0px;
+    margin-right:20px;
+}
+.tabledesign{
+	font-size:14px;
+}
+.fa-file-word-o{
+    float:right;
+	color:#8B0000;
+    font-size: 46px;
+    margin-top: 0px;
+    margin-right:20px;
+  
+}
+.fa-file-pdf-o{
+	float:right;
+	color: #8B0000;
+    font-size: 46px;
+    margin-right:20px;
+    font-size: 46px;
+    margin-left: 13px;
+}
+.dwnbutton{
+    
+	
+	margin-top: 10px;
+    margin-right:130px; 
+}
+.leftpage{
+	background-color:transparent;
+}
+
+/*footer*/
+.foot{
+    padding-top: 18px;
+    background-color: black;
+    font-size: 16px;
+    opacity: 0.8;
+	margin-top:20px;
+}
+.foot a{
+font-size: 14px;
+color:white;
+}
+.lastimg{
+width:80px;
+}
+.icon6{
+	width:80px;
+}
+@media all
+  and (min-device-width: 300px) 
+  and (max-device-width: 720px) {
+	 
+	  .plusdesign .buttonclass{
+           margin-left: 0px;
+    float: right;
+}
+h2.heading{
+	 
+    font-size: 20px;
+    margin: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 31px;
+    letter-spacing: 4px;   
+}
+     h2.subheading{
+		 font-size:15px;
+		 color:  black;
+	 }
+	 .logoimg{
+    display: inline-block;
+    padding-right: 10px;
+	padding-left: 10px;
+    padding-top: 0px;
+    margin-top: 3px;
+}
+.tabledesign{
+	font-size:4px;
+}
+body{
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 8px;
+    line-height:1.4;
+    color: #333;
+  }
+  .first{
+	   
+		background-color:transparent;
+	border: none;
+	margin-bottom:0px;
+}
+h1.textalign
+{
+ margin:0px;
+}
+.navbar-brand
+{
+  padding: 0px;
+}
+.cont-align{
+	padding:0px;
+	background-size:100% 100%;
+	
+}
+
+.bodyclass{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.left_align
+{
+	text-align:left;
+	color: black;
+	font-weight: bold;
+    font-family: 'inital';
+	font-size: 15px;
+}
+
+hr { 
+background-color: red; 
+height: 1px; 
+border: 0; 
+}
+
+h3
+{
+	text-align:left;
+	color: black;
+	font-weight: bold;
+	font-family: 'inital';
+	font-size: 20px;
+}
+.fa-file-word-o{
+	color: darkblue;
+    font-size: 20px;
+    margin-right:20px;
+	margin-top: 8px;
+}
+.fa-file-pdf-o{
+	float:right;
+	color: darkblue;
+    font-size: 20px;
+    margin-right:10px;
+    margin-left: 13px;
+        margin-top: 8px
+}
+
+.text_work
+{
+	
+	font-weight:normal;
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 8px;
+    line-height: 1.4;
+    color: #333;
+	
+}
+
+.work_align
+{
+	text-align:center;
+	color: black;
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 8px;
+    line-height: 1.4;
+    color: #333;
+}
+
+  
+  
+  }
+  @media all
+  and (min-device-width: 720px) 
+  and (max-device-width: 1280px) {
+	  .plusdesign .buttonclass{
+           margin-left: 0px;
+    float: right;
+ 
+}
+
+h2.heading{
+	 
+    font-size: 20px;
+    margin: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 31px;
+    letter-spacing: 4px;   
+}
+     h2.subheading{
+		 font-size:15px;
+		 color:  black;
+	 }
+	 .first{
+	   
+		background-color:transparent;
+	border: none;
+	margin-bottom:0px;
+}
+h1.textalign
+{
+ margin:0px;
+}
+.navbar-brand
+{
+  padding: 0px;
+}
+.cont-align{
+	padding:0px;
+	background-size:100% 100%;
+	
+}
+
+
+.bodyclass{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.left_align
+{
+	text-align:left;
+	color: black;
+	font-weight: bold;
+    font-family: 'inital';
+	font-size: 15px;
+}
+
+hr { 
+background-color: red; 
+height: 1px; 
+border: 0; 
+}
+
+h3
+{
+	text-align:left;
+	color: black;
+	font-weight: bold;
+	font-family: 'inital';
+	font-size: 20px;
+}
+.tabledesign{
+	font-size:5px;
+}
+.text_work
+{
+	
+	font-weight:normal;
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 8px;
+    line-height: 1.4;
+    color: #333;
+	
+}
+
+.work_align
+{
+	text-align:center;
+	color: black;
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 8px;
+    line-height: 1.4;
+    color: #333;
+}
+
+  }
