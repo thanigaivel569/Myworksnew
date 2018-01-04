@@ -1,0 +1,69 @@
+const products=[
+{
+  
+ id:1, name:"lap", price:100
+},
+             
+{
+  
+ id:2, name:"ipad", price:200
+},           
+             
+{
+  
+ id:3, name:"iphone", price:300
+},  
+             
+];
+
+//console.log(products);
+
+
+
+  const ADD_product= {
+  
+  type:'ADD',
+  name:"mouse",
+  price:400
+  
+};
+
+ const q= (currentState,action) => {
+  
+  switch (action.type){
+      
+      
+    case 'ADD':
+      const nextState = [...currentState, { id:4, name:action.name ,price:action.price}  ];
+      
+      //return nextState;
+        console.log(nextState);
+      break;
+      
+  
+  }
+}
+
+
+q(products,ADD_product);
+
+CONSOLE:
+
+
+[[object Object] {
+  id: 1,
+  name: "lap",
+  price: 100
+}, [object Object] {
+  id: 2,
+  name: "ipad",
+  price: 200
+}, [object Object] {
+  id: 3,
+  name: "iphone",
+  price: 300
+}, [object Object] {
+  id: 4,
+  name: "mouse",
+  price: 400
+}]

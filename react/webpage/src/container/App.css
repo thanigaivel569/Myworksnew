@@ -1,0 +1,28 @@
+
+
+.head {
+ height:100px;
+ text-align: center;
+ background-color:pink; 
+ font-family:Lucida Console;
+
+  }
+
+  h1.head {
+    padding-top: 20px;
+}
+
+
+  .Button-size
+  {
+  width:180px;
+  height:50px;
+  color:black;
+  font-family:Lucida Console;
+  background-color:pink;
+  border-color:black;
+  }
+
+  input[type="text"] {
+    border-color:pink;
+}

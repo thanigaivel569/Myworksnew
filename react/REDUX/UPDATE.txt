@@ -1,0 +1,95 @@
+const products=[
+{
+  
+ id:1, name:"lap", price:100
+},
+             
+{
+  
+ id:2, name:"ipad", price:200
+},           
+             
+{
+  
+ id:3, name:"iphone", price:300
+},  
+             
+];
+
+//console.log(products);
+
+
+
+  const ADD_product= {
+  
+  type:'ADD',
+  name:"mouse",
+  price:400
+  
+};
+
+
+const UPDATE_product = {
+  
+ type: 'UPDATE',
+ payload: {id: 2,name: "ipad mini" ,price:8888}
+  
+};
+
+
+ const q= (currentState,action) => {
+  
+  switch (action.type){
+      
+      
+    case 'ADD':
+      const nextState = [...currentState, { id:4, name:action.name ,price:action.price}  ];
+      
+      //return nextState;
+        console.log(nextState);
+      break;
+      
+
+ 
+   case 'UPDATE' :
+     const obj = currentState.map((item) => {
+       if (action.payload.id===item.id)
+       {
+         return {...action.payload};
+         
+    }
+       
+       return item;
+  
+ });
+console.log(obj);    
+      
+      
+      
+  
+  }
+}
+
+ 
+ 
+ 
+ 
+
+q(products,UPDATE_product);
+
+
+CONSOLE:
+
+[[object Object] {
+  id: 1,
+  name: "lap",
+  price: 100
+}, [object Object] {
+  id: 2,
+  name: "ipad mini",
+  price: 8888
+}, [object Object] {
+  id: 3,
+  name: "iphone",
+  price: 300
+}]
